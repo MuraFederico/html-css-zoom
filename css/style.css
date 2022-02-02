@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+.visual{
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.btn-header {
+    margin: .5em;
+    padding: 0.5em;
+    background-color: rgba(74 74 74);
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    /* width: 90vw; */
+    height: 85vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 7px;
+    overflow-y: auto;
+}
+
+.webcam {
+    position: relative;
+}
+
+.nick {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    padding: .5em;
+    background-color: rgba(74, 74, 74, .7);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(34, 34, 34);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    margin: 0 .7em;
+}
+
+li i {
+    font-size: 24px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.fa-share-square{
+    color: lime;
+}
+
+.btn-leave{
+    margin-right: 1rem;
+    background-color: red;
+    border-radius: 24px;
+    padding: .2em .7em;
+}
